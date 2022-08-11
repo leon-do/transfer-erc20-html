@@ -1,8 +1,8 @@
 # Transfer ERC20
 
-Network: Goerli
+Network: Goerli, Rinkeby
 
-Contract: 0x143492ee98B514b07754e36aDA35Bc0E0b756009
+Contract: 0x8a9f58dea0cf3d92dd8963f5a0a4c7aa9fa76642
 
 Website: https://leon-do.github.io/transfer-erc20-html/
 
@@ -15,7 +15,7 @@ pragma solidity ^0.8.0;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
 contract PublicMint20 is ERC20 {
-    constructor() ERC20("Rink20", "RNK20") {
+    constructor() ERC20("Test20", "TEST20") {
     }
 
     function publicMint() public {
